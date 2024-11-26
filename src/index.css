@@ -1,0 +1,44 @@
+.Home {
+  display: flex;
+  justify-content: flex-start;
+  width: 100vw;
+}
+.productContainer {
+  display: flex;
+  width: 50%;
+  padding: 20px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.filters {
+  background-color: #343a40;
+  color: white;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  margin: 10px;
+  height: 86vh;
+}
+.filters > span {
+  padding-bottom: 20px;
+}
+.title {
+  font-size: 20px;
+}
+.price {
+  display: flex;
+  justify-content: space-around;
+}
+.kuttan {
+  width: 450px;
+}
+.products {
+  width: 30%;
+  margin: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+.butt {
+  width: 100%;
+}
